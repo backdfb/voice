@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { useQuery } from "@tanstack/react-query"
-import { getTodos } from "../api/todoAPI"
+import { getTodos } from "../api/todoApi"
 import Layout from "../components/Layout"
 import Filter from '../components/TodoComponent/Filter'
 import Card from '../components/TodoComponent/Card'
