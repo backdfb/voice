@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { useQuery } from "@tanstack/react-query"
-import { getTodos } from "../api/todoApi"
+import { getTodos } from "../api/todoAPI"
 import Layout from "../components/Layout"
 import Filter from '../components/TodoComponent/Filter'
 import Card from '../components/TodoComponent/Card'
@@ -11,7 +11,7 @@ import Header from '../components/TodoComponent/Header'
 import TodoForm from '../components/TodoComponent/TodoForm'
 import type { ITodo } from '../type/types'
 import { useModal } from '../hook/useModal'
-import { handleLogOut } from '../utils/localeStorage'
+import { handleLogOut } from '../utils/localStorage'
 import { useFilter } from '../hook/useFilter'
 const TodoPage = () => {
   const { isModalOpen, modalMessage, handleModalOpen, handleModalClose } = useModal()

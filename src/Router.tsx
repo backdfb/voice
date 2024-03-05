@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Home from './page/Home'
 import TodoPage from './page/TodoPage'
-import { getToken } from "./utils/localeStorage"
+import { getToken } from "./utils/localStorage"
 
 const Router = () => {
     return (

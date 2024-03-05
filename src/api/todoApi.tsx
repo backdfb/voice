@@ -1,4 +1,4 @@
-import { getToken } from '../utils/localeStorage';
+import { getToken } from '../utils/localStorage';
 import axiosInstance from './axiosInstance';
 import type { ITodoParam } from '../type/types';
 

@@ -5,7 +5,7 @@ import Circle from '../../assets/svg/Circle'
 import ModalAlert from '../ModalAlert';
 import Modal from '../Modal'
 import { updateTodo,deleteTodo } from '../../api/todoApi';
-import {useQueryClient, useMutation} from '@tanstack/react-query';
+import { useQueryClient, useMutation } from '@tanstack/react-query';
 import type { ITodo, ILayout } from '../../type/types';
 import { useModal } from '../../hook/useModal';
 import { useEditMode } from '../../hook/useEditMode';

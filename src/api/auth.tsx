@@ -1,5 +1,5 @@
 import axiosInstance from './axiosInstance'
-import { setToken } from '../utils/localeStorage'
+import { setToken } from '../utils/localStorage'
 import type { IAuth } from '../type/types';
 
 
