@@ -42,7 +42,7 @@ const SignIn = ({ isSignInMode, handleChangeMode, handleModalOpen }: IAuthProps)
       </InputWrapper>
       <SubmitBtn type='button' onClick={gusetLogin}>게스트 로그인</SubmitBtn>
       <SubmitBtn >{isSignInMode}</SubmitBtn>
-      <ChangeMode type='button' onClick={() => handleChangeMode()}>회원가입하러가기</ChangeMode>
+      <ChangeMode type='button' onClick={() => handleChangeMode()}>가입하러 가요!</ChangeMode>
     </FormContainer>
 
   )
