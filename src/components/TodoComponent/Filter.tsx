@@ -4,9 +4,9 @@ import type { IFilter, IStyledFilter } from '../../type/types'
 const Filter = ({filterState, handleFilter} : IFilter) => {
   return(
     <FilterWrapper>
-    <FilterDiv className='all' state={'all'} current={filterState} onClick={() => handleFilter('all')}>All</FilterDiv>
-    <FilterDiv className='doneFIlter' state={'done'} current={filterState} onClick={() => handleFilter('done')}>Done!</FilterDiv>
-    <FilterDiv className='notYetFilter' state={'notYet'} current={filterState} onClick={() => handleFilter('notYet')}>Not yet</FilterDiv>
+      <FilterDiv className='all' state={'all'} current={filterState} onClick={() => handleFilter('all')}>All</FilterDiv>
+      <FilterDiv className='doneFIlter' state={'done'} current={filterState} onClick={() => handleFilter('done')}>Done!</FilterDiv>
+      <FilterDiv className='notYetFilter' state={'notYet'} current={filterState} onClick={() => handleFilter('notYet')}>Not yet</FilterDiv>
   </FilterWrapper>
   )
 }
